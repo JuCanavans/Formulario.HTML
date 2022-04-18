@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e4f0ef;
+}
+form{
+    padding-top: 55px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+form fieldset{
+    text-align: center;
+    padding: 25px 40px;
+    border: 2px solid #3f5c5b;
+}
+form legend{
+    text-align: left;
+    font-size: 30px;
+    color: #3f5c5b;
+}
+fieldset .pass{
+    font-size: 19px;
+    font-weight: bold;
+    color: #3f5c5b;
+}
+form input[input=text]{
+    display: inline-block;
+    margin-top: 15px;
+    width: 45%;
+    padding: 3px 5px;
+    border: 2px solid #3f5c5b;
+    border-radius: 5px;
+}
+div .titulo{
+    font-size: 19px;
+    color: #3f5c5b;
+    text-align: center;
+}
+div .list{
+    margin-top: 5px;
+    border: 2px solid #3f5c5b;
+    border-radius: 5px;
+}
+form select{
+    width: 20%;
+    margin-top: 30px;
+    padding: 3px 5px;
+    display: inline-block;
+    border: 2px solid #3f5c5b;
+}
+form h2{
+    font-size: 19px;
+    color: #3f5c5b;
+    margin-top: 15px;
+}
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+.input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: #3f5c5b;
+}
+form textarea{
+    margin-top: 30px ;
+    width: 40%;
+    height: 70px;
+    width: 274px;
+    padding: 3px 5px;
+}
+form input[type=submit]{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-spacing: 50%;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: skyblue;
+}
